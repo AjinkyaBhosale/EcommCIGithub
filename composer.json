@@ -1,0 +1,19 @@
+{
+    "name": "root/ecommerce-grunt",
+    "description": "EcommerceGrunt",
+    "require": {
+        "phpmd/phpmd": "^2.3",
+        "sebastian/phpcpd": "^2.0",
+        "phploc/phploc": "^2.1",
+        "pdepend/pdepend": "^2.2",
+        "squizlabs/php_codesniffer": "^2.5",
+        "phpunit/phpunit": "^5.1",
+        "phpdocumentor/phpdocumentor": "^2.8"
+    },
+    "authors": [
+        {
+            "name": "ajinkyab",
+            "email": "ajinkyab@cybage.com"
+        }
+    ]
+}

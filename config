@@ -1,0 +1,73 @@
+module.exports={
+
+   //code and test related
+	report:'Report/',
+	allcode:'CodeAndTestCases/',
+	testCase:'Tests/',
+	src:'ecomm_project/',
+
+   //composer related
+	composerLocation: '/usr/local/bin/composer',
+
+
+
+   //phploc related
+	phplocPharLocation:'vendor/bin/phploc',
+	phplocReportLocation:'Report/phploc',
+
+
+
+   //phpcpd related
+	phpcpdPharLocation:'vendor/bin/phpcpd',
+	phpcpdReportLocation:'Report/phpcpd',
+
+
+
+   //phpmd related
+	phpmdPharLocation:'vendor/bin/phpmd',
+	phpmdReportLocation:'Report/phpmd',
+	phpmdReportFormat:'xml',
+	phpmdRulesets: 'codesize,unusedcode,naming',
+
+
+
+   //phpcs related
+	phpcsPharLocation: 'vendor/bin/phpcs',
+	phpcsReportLocation: 'Report/phpcs',
+	phpcsReportFormat: 'xml',
+	phpcsStandard: 'Zend',
+
+
+
+   //pdepend related
+	pdependPharLocation: 'vendor/bin/pdepend',
+	pdependReportLocation: 'Report/pdepend',
+
+
+
+   //phpunit related
+	punitPharLocation: 'vendor/bin/phpunit',
+	punitCoverageClover: 'Report/phpUnitclover',
+	punitCoverageHtml: 'Report/phpUnitCoverageHtml',
+	punitCoveragePhp: 'Report/phpUnitcoveragePhp',
+
+
+
+   //zip related
+	zipSource:'CodeAndTestCases/**/*',
+	zipDest:'CodeAndTestCases.zip',
+
+
+
+   //Unzip related
+	unzipSource:'CodeAndTestCases.zip/',
+	unzipDest:'AllCode',
+
+
+
+   //phpdocumentor related
+	docsSource : 'CodeAndTestCases/**',
+	phpdocsReportLocation : 'Report/phpDocs',
+
+
+}
